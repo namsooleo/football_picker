@@ -1,0 +1,57 @@
+# Gitignore for Education Repo
+
+# OS files and misc.
+.vscode/
+.DS_Store
+
+# PYTHON 
+
+# Virtual environment and env files
+venv/
+.env
+
+# Pycache Files
+**/__pycache__/
+**/*.pyc
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+
+# ANDROID https://github.com/github/gitignore/blob/main/Android.gitignore
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
